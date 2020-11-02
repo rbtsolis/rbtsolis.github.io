@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-02T10:09:46-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Roberth Solís Blog</title><subtitle>Blog about technology. I'm a Python Developer located in Costa Rica. I love write posts and try new programing languages</subtitle><author><name>Roberth Solís</name></author><entry><title type="html">How to build a free blog with Github pages!</title><link href="http://localhost:4000/blog/build-blog-github-pages" rel="alternate" type="text/html" title="How to build a free blog with Github pages!" /><published>2020-11-01T14:01:00-06:00</published><updated>2020-11-01T14:01:00-06:00</updated><id>http://localhost:4000/blog/build-blog-github-pages</id><content type="html" xml:base="http://localhost:4000/blog/build-blog-github-pages">&lt;p&gt;In this case we will start with Github Pages and we will use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt; to create a blog.&lt;/p&gt;
+
+&lt;p&gt;Story behind my blog:
+I was thinking in create one custom blog with some Framework, pay the server, but if you think, that is too much just to build a simple blog later I choose &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;, that is awesome tool.&lt;/p&gt;
+
+&lt;h4 id=&quot;some-point-before-start&quot;&gt;&lt;strong&gt;Some point before start:&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;We need Ruby 2.1 or higher&lt;/li&gt;
+  &lt;li&gt;Please install Ruby or type: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby -v&lt;/code&gt; if you have Ruby installed&lt;/li&gt;
+  &lt;li&gt;Verify if you have Ruby Gem “Is like a dependency manager like pip, npm etc.” type: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem -v&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;now-we-are-ready-to-start-with-jekyll&quot;&gt;&lt;strong&gt;Now we are ready to start with Jekyll&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install jekyll bundler&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;type: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll -v&lt;/code&gt; to verify your &lt;strong&gt;Jekyll&lt;/strong&gt; version&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;creation-and-upload&quot;&gt;&lt;strong&gt;Creation and upload&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Create a repo with your username of github in this case: yourusername.github.io&lt;/li&gt;
+  &lt;li&gt;Type: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new yourprojectname&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Run your Jekyll project with: bundle exec jekyll serve&lt;/li&gt;
+  &lt;li&gt;Clone the repo and paste your content in the repo or add git remote (That is out of the purpose of this guide)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;just-push-your-code-and-done&quot;&gt;&lt;strong&gt;Just push your code and done&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Now you’re ready to start blogging&lt;/p&gt;</content><author><name>Roberth Solís</name></author><category term="developer" /><category term="blog" /><category term="jekyll" /><summary type="html">In this case we will start with Github Pages and we will use Jekyll to create a blog.</summary></entry></feed>
