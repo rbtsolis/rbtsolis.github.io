@@ -27,12 +27,6 @@
   </div>
 </footer>
 
-<div class="page-content">
-  <div class="wrapper">
-    <div id="disqus_thread"></div>
-  </div>
-</div>
-
 <!-- This if is to use Google Analytics just in production or domain name -->
 {% if site.url contains 'rbtsolis.github.io' %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -42,12 +36,6 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', '{{ site.google_analytics }}');
-  (function() { // DON'T EDIT BELOW THIS LINE
-  var d = document, s = d.createElement('script');
-    s.src = 'https://rbtsolis-github-io.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus. and all the features</a></noscript>
 {% endif %}
